@@ -6,7 +6,7 @@ def triangle_area(base, height):
 
 def square_area(side):
     """Calculates the area of a square."""
-    return side ** 2
+    return side ** 4
 
 def rectangle_area(length, width): 
     return length * width 
