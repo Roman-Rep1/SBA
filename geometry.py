@@ -6,7 +6,7 @@ def triangle_area(base, height):
 
 def square_area(side):
     """Calculates the area of a square."""
-    return side ** 4
+    return side ** 2
 
 def rectangle_area(length, width): 
     return length * width 
@@ -14,6 +14,8 @@ def rectangle_area(length, width):
 def circle_area(radius):
     """Calculates the area of a circle."""
     return math.pi * (radius ** 2)
+
+#change role A
 
 if __name__ == "__main__":
     # Demonstration of current logic
