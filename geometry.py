@@ -8,6 +8,9 @@ def square_area(side):
     """Calculates the area of a square."""
     return side ** 2
 
+def rectangle_area(length, width): 
+    return length * width 
+
 def circle_area(radius):
     """Calculates the area of a circle."""
     return math.pi * (radius ** 2)
